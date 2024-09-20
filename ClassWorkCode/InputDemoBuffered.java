@@ -5,7 +5,7 @@ class InputDemoBuffered {
         BufferedReader sc = new BufferedReader(new InputStreamReader(System.in));
 
         try {
-            System.out.println("Enter the integer value:");
+            System.out.print("Enter the integer value:");
             String str = sc.readLine(); // Correct method to read a line from input
             int x = Integer.parseInt(str); // Convert the input string to an integer
             System.out.println("The integer value = " + x);
@@ -14,7 +14,7 @@ class InputDemoBuffered {
             e.printStackTrace(); // Print the stack trace for the IOException
         } catch (NumberFormatException e) {
             System.out.println("Please enter a valid integer."); // Handle incorrect number format
-            e.printStackTrace(); // Print the stack trace for NumberFormatException
+//            e.printStackTrace(); // Print the stack trace for NumberFormatException
         }
     }
 }
