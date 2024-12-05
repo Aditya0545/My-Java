@@ -2,7 +2,7 @@ public class Sort_List {
     public static void main(String args[]) {
         int list[] = {69, 81, 30, 18, 24, 9, 74, 63, 88};  
 
-        System.out.println("List = ");
+        System.out.print("List = ");
         int size = list.length;
         for (int i = 0; i < size; i++) {
             System.out.print(list[i] + " ");
@@ -19,7 +19,7 @@ public class Sort_List {
         }
 
 
-        System.out.println("\nSorted List = ");
+        System.out.print("\nSorted List = ");
         for (int i = 0; i < size; i++) {
             System.out.print(list[i] + " ");
         }

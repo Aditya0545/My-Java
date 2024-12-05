@@ -17,7 +17,7 @@ class Rectangle1 {
 
 class TestRectangleConst {
     public static void main(String args[]) {
-        Rectangle1 obj1 = new Rectangle1(5,4);
+        Rectangle1 obj1 = new Rectangle1();
         Rectangle1 obj2 = new Rectangle1(2,2);
 
         int A1 = obj1.area();
